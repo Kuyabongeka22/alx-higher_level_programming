@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 import os
 
-os.environ['USER']
+os.environ['USER'] = 'PYFILE'
