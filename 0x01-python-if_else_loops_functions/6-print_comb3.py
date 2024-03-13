@@ -5,4 +5,4 @@ for first_digit in range(0, 10):
         if first_digit > second_digit:
             continue
         else:
-            print("{}, {}.format(first_digit, second_digit))
+            print("{}, {}".format(first_digit, second_digit))
