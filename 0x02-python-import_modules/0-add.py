@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-from add_0 import add
 
-if __name__ != __"main"__:
+if __name__ == __"main"__:
+    from add_0 import add
     a= 1
     b= 2
     results= add(a, b)
