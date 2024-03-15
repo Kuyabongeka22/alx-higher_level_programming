@@ -2,8 +2,8 @@
 if __name__ == "__main__":
     import sys
 
-    argv= sys.argv
-    no_of_elements= len(argv) - 1
+    argv = sys.argv
+    no_of_elements = len(argv) - 1
 
     if no_of_elements == 0:
         print("{} arguments.".format(no_of_elements))
@@ -13,4 +13,4 @@ if __name__ == "__main__":
         print("{} arguments:".format(no_of_elements))
 
     for number in range(no_of_elements):
-            print("{}: {}".format(number + 1, sys.argv[number + 1]))
+        print("{}: {}".format(number + 1, sys.argv[number + 1]))
