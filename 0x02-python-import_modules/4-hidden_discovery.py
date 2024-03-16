@@ -6,5 +6,5 @@ if __name__ == "__main__":
 
     x = dir(hidden_4)
     for name in x:
-        if not name[1:] == "__":
+        if not name[:2] == "__":
             print("{}".format(name))
