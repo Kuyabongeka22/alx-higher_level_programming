@@ -22,10 +22,12 @@ class Rectangle:
 
     def width(self):
         return self.width
+
     def width(self, value):
         self.width = value
+
     def height(self):
         return self.height
+
     def height(self, value):
         self.height = value
-
