@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""creates a class that inheritates"""
+"""
+===========================
+Module with class MyList
+===========================
+"""
 
 
 class MyList(list):
