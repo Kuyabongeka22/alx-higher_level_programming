@@ -4,7 +4,8 @@
 import json
 
 
+
 def load_from_json_file(filename):
 	"""create from json"""
-	ith open(filename) as file1:
+	with open(filename) as file1:
         return json.load(file1)
