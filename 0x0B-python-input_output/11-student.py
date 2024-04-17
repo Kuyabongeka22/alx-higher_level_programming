@@ -1,4 +1,5 @@
- a class Student."""
+ #!/usr/bin/python3
+"""Module defining a class Student."""
 
 
 class Student:
