@@ -10,4 +10,4 @@ def append_write(filename="", text=""):
 	text: characters appended
 	"""
 	with open(filename, "a", encoding="UTF-8") as file:
-		return file.append(text)
+		return file.write(text)
